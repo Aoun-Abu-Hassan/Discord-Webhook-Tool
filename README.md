@@ -11,10 +11,23 @@ This project is a simple script that sends a Discord message to multiple webhook
 ### Config file
 ```
 {
-    "sendCase": "method", //remove this comment methods: ["simultaneously","one-by-one-and-delete","delete-webhooks-one-by-one","delete-webhooks-simultaneously"]
-    "timesToSend": TimeInMs,
-    "timeoutbetweeneachwebhook": TimeInMs,
-    "webhooks": ["WEBHOOK_1","WEBHOOK_2","WEBHOOK_3"]
+    "method": "simultaneously", //remove this comment methods: ["simultaneously","one-by-one-and-delete","delete-webhooks-one-by-one","delete-webhooks-simultaneously"]
+    "interval": "5",
+    "frequency": "1000",
+    "webhooks": [
+        "YOUR_WEBHOOK_URL",
+        "YOUR_WEBHOOK_URL",
+        "YOUR_WEBHOOK_URL"
+    ],
+    "embeds": {
+        "title": "Test",
+        "description": "DESCRIPTION",
+        "author": {
+            "name": "AUTHOR_NAME",
+            "avatar_url": "https://www.imagdisplays.co.uk/wp-content/uploads/2021/04/PHOTO-2020-08-13-16-07-05.jpg"
+        },
+        "thumbnail": "https://www.imagdisplays.co.uk/wp-content/uploads/2021/04/PHOTO-2020-08-13-16-07-05.jpg"
+    }
 }
 ```
 
