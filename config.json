@@ -1,0 +1,19 @@
+{
+    "method": "simultaneously",
+    "interval": "5",
+    "frequency": "1000",
+    "webhooks": [
+        "https://discord.com/api/webhooks/1071463539774079046/h8JaQMp1bW13al_BM5mfels9zbtVInqJAEVxmVkP-HQOIg6hsbHolOAuyj0NMB5Pljbb",
+        "https://discord.com/api/webhooks/1071463592634884189/2igQkznIGFSVs6XAoe1h6Nh5U2uH1J6-mOd5f8XewXyFAlyNZMFdxCoPljl-Ot5RjAJ0",
+        "https://discord.com/api/webhooks/1071463653750079539/bqYsLGO0A7rIFGbZjFo96WOG9CzsRqep8y1dEZQYM_EBlPR0ARFQYXPFrMOsVGejsKcf"
+    ],
+    "embeds": {
+        "title": "Test",
+        "description": "DESCRIPTION",
+        "author": {
+            "name": "AUTHOR_NAME",
+            "avatar_url": "https://www.imagdisplays.co.uk/wp-content/uploads/2021/04/PHOTO-2020-08-13-16-07-05.jpg"
+        },
+        "thumbnail": "https://www.imagdisplays.co.uk/wp-content/uploads/2021/04/PHOTO-2020-08-13-16-07-05.jpg"
+    }
+}
