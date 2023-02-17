@@ -33,7 +33,7 @@ This project is a simple script that sends a Discord message to multiple webhook
 
 
 ### Support
-For support and questions, please join our Discord support server: https://discord.gg/T6WQY9APG2
+For support and questions, please join our Discord support server: https://discord.gg/hUefUsCtTd
 
 ### Contributing
 If you have any suggestions or improvements, feel free to create a pull request.
